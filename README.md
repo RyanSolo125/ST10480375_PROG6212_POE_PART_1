@@ -27,7 +27,7 @@ Inside the `Documents` folder:
 
 ## Database
 
-There are 6 tables: Users, Events, Categories, Enrolments, Results and Payments. Users holds both Organisers and Participants (there's a Role column to tell them apart). Everything else links back to either Users or Events depending on what it is. Full details are in the ERD.
+There are 6 tables: Users, Events, Categories, Enrolments, Results and Payments. Users holds both Organisers and Participants (there's a Role column to tell them apart). Everything else links back to either Users or Events depending on what it is.
 
 ## How to run the SQL script
 

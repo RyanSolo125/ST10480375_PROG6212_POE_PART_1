@@ -2,7 +2,6 @@ CREATE DATABASE RaceDayDB;
 
 USE RaceDayDB;
 
-
 -- Users 
 CREATE TABLE Users (
     UserId INT IDENTITY(1,1) PRIMARY KEY,
@@ -13,6 +12,8 @@ CREATE TABLE Users (
     PhoneNumber VARCHAR(20),
     CreatedAt DATETIME DEFAULT GETDATE()
 );
+
+select * from Users;
 
 
 -- Events 
@@ -27,6 +28,8 @@ CREATE TABLE Events (
     CreatedAt DATETIME DEFAULT GETDATE()
 );
 
+select * from Events;
+
 
 -- Categories 
 CREATE TABLE Categories (
@@ -38,6 +41,7 @@ CREATE TABLE Categories (
     MaxParticipants INT
 );
 
+select * from Categories;
 
 -- Enrolments 
 CREATE TABLE Enrolments (
@@ -48,6 +52,7 @@ CREATE TABLE Enrolments (
     Status VARCHAR(20) DEFAULT 'Confirmed'
 );
 
+select * from Enrolments;
 
 -- Results 
 CREATE TABLE Results (
@@ -58,6 +63,7 @@ CREATE TABLE Results (
     Status VARCHAR(20) DEFAULT 'Finished'
 );
 
+select * from Results;
 
 -- Payments
 CREATE TABLE Payments (
@@ -69,6 +75,7 @@ CREATE TABLE Payments (
     PaymentStatus VARCHAR(20) DEFAULT 'Paid'
 );
 
+select * from Payments;
 
 ---
 ---- sample data
@@ -114,3 +121,10 @@ INSERT INTO Payments (EnrolmentId, Amount, PaymentMethod, PaymentStatus) VALUES
 (2, 450.00, 'Card', 'Paid'),
 (3, 650.00, 'EFT', 'Paid'),
 (4, 200.00, 'Card', 'Pending');
+
+select * from Users;
+select * from Events;
+select * from Categories;
+select * from Enrolments;
+select * from Results;
+select * from Payments;

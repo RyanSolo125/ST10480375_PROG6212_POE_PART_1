@@ -6,7 +6,7 @@ This is Part 1 of the project (POE). This part is just the planning which consis
 
 ## What's in this repo
 
-Inside the `/docs` folder:
+Inside the `Documents` folder:
 - `ST10480375_POE_PART_1_ERD.docx` the Entity Relationship Diagram for the database
 - `ST10480375_POE_PART_1_API_ENDPOINT_PLAN.docx` table of every API endpoint the system will need
 - `RaceDayDB.sql` SQL script that creates the database and tables, with sample data

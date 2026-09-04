@@ -11,3 +11,40 @@ Inside the `Documents` folder:
 - `ST10480375_POE_PART_1_API_ENDPOINT_PLAN.docx` table of every API endpoint the system will need
 - `RaceDayDB.sql` SQL script that creates the database and tables, with sample data
 
+## The two roles
+
+**Organiser**
+- Can create, edit and delete events
+- Can manage the categories for their events (e.g. 5km, 10km, 21km)
+- Can capture participant results
+- Can view all enrolments for their events
+
+**Participant**
+- Can create an account
+- Can browse events
+- Can enter an event by choosing a category
+- Can view their own enrolments and results
+
+## Database
+
+There are 6 tables: Users, Events, Categories, Enrolments, Results and Payments. Users holds both Organisers and Participants (there's a Role column to tell them apart). Everything else links back to either Users or Events depending on what it is. Full details are in the ERD.
+
+## How to run the SQL script
+
+1. Open SQL Server Management Studio (SSMS)
+2. Connect to your local SQL Server instance
+3. Open `RaceDayDB.sql`
+4. Click Execute
+5. This creates the `RaceDayDB` database with all tables and some sample data
+
+## CI/CD
+
+Screenshot of the green build:
+
+*(insert screenshot here)*
+
+## Video
+
+Here's my video walking through the ERD, the endpoint plan, and running the SQL script:
+
+*(insert YouTube link here)*

@@ -2,6 +2,7 @@ CREATE DATABASE RaceDayDB;
 
 USE RaceDayDB;
 
+
 -- Users 
 CREATE TABLE Users (
     UserId INT IDENTITY(1,1) PRIMARY KEY,

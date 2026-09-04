@@ -11,7 +11,7 @@ Inside the `Documents` folder:
 - `ST10480375_POE_PART_1_API_ENDPOINT_PLAN.docx` table of every API endpoint the system will need
 - `RaceDayDB.sql` SQL script that creates the database and tables, with sample data
 
-## The two roles
+## The two roles:
 
 **Organiser**
 - Can create, edit and delete events

@@ -46,4 +46,4 @@ There are 6 tables: Users, Events, Categories, Enrolments, Results and Payments.
 
 Here's my video walking through the ERD, the endpoint plan, and running the SQL script:
 
-*(insert YouTube link here)*
+https://youtu.be/xu_lS64AWnc

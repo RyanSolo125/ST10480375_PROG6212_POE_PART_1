@@ -39,9 +39,8 @@ There are 6 tables: Users, Events, Categories, Enrolments, Results and Payments.
 
 ## CI/CD
 
-Screenshot of the green build:
+<img width="998" height="402" alt="image" src="https://github.com/user-attachments/assets/c11b3c02-38a9-4709-8f9a-bc45ead9dc7f" />
 
-*(insert screenshot here)*
 
 ## Video
 
